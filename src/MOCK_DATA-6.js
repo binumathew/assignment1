@@ -1,5 +1,5 @@
-export const mockDataFromJson2  =   [{"id":1,"company":"The Lord of the Rings: The Return of the King","location":"Russia"},
-{"id":2,"company":"The Lion King","location":"South Africa"},
+export const mockDataFromJson2  =   [{"id":1,"company":"Flashdog","location":"Russia"},
+{"id":2,"company":"Skinix","location":"South Africa"},
 {"id":3,"company":"Topicware","location":"Indonesia"},
 {"id":4,"company":"Jaxbean","location":"Ukraine"},
 {"id":5,"company":"Feedfire","location":"Bolivia"},
