@@ -1,4 +1,4 @@
-export const mockDataFromJson2  =   [{"id":1,"company":"Flashdog","location":"Russia"},
+[{"id":1,"company":"Flashdog","location":"Russia"},
 {"id":2,"company":"Skinix","location":"South Africa"},
 {"id":3,"company":"Topicware","location":"Indonesia"},
 {"id":4,"company":"Jaxbean","location":"Ukraine"},

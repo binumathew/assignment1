@@ -1,4 +1,4 @@
-export const mockDataFromJson1  =  [{"id":1,"name":"Reyna Dorcey","location":"United States"},
+[{"id":1,"name":"Reyna Dorcey","location":"United States"},
 {"id":2,"name":"Fredra Swatten","location":"Portugal"},
 {"id":3,"name":"Margaretta Habbon","location":"Russia"},
 {"id":4,"name":"Ragnar Baser","location":"China"},
@@ -97,4 +97,4 @@ export const mockDataFromJson1  =  [{"id":1,"name":"Reyna Dorcey","location":"Un
 {"id":97,"name":"Kalila Spilsbury","location":"Russia"},
 {"id":98,"name":"Steffi Asals","location":"Russia"},
 {"id":99,"name":"Sayer Brazear","location":"Chad"},
-{"id":100,"name":"Editha Dubery","location":"Ukraine"}];
+{"id":100,"name":"Editha Dubery","location":"Ukraine"}]
