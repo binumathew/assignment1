@@ -1,24 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import "./App.css";
-import { getData } from "./functions/GetData";
-import { getSearchList } from "./functions/FilterData";
-export const Mock = ({ filename }) => {
-  const [mockData, setMockData] = useState([]);
-  const [keys, setKeys] = useState([]);
-  useEffect(() => {
-    getData(filename).then(result => {  setMockData(result);console.log(result); })
-    if(mockData.length > 0)
-    {
-      let first = mockData[0];
-      let keys = Object.keys(first)
-      setKeys(keys);
-    }
-}, []);
+export const Mock = (props) => {
   return (
     <div >
       <table>
         <tbody>
-          { mockData.length > 0 && mockData.map((data, key) => {
+          { props.data && props.data.map((data, key) => {
+             let keys = Object.keys(data)
             return (
               <tr key={key}>
                 <td>
@@ -32,7 +20,8 @@ export const Mock = ({ filename }) => {
                 </td>
               </tr>
             );
-          })}
+          })
+          }
         </tbody>
       </table>
     </div>
